@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# react_portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+My portfolio, via a React app.
 
-### `npm start`
+<img src="/assets/images/react_portfolio_preview.png" width="700"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click [here TODO]() to see my deployed portfolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Credits](#credits)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Story
 
-### `npm run build`
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acceptance Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+GIVEN a single-page application portfolio for a web developer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] WHEN I load the portfolio
+      THEN I am presented with a page containing a header, a section for content, and a footer
 
-### `npm run eject`
+- [ ] WHEN I view the header
+      THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] WHEN I view the navigation titles
+      THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] WHEN I click on a navigation title
+      THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] WHEN I load the portfolio the first time
+      THEN the About Me title and section are selected by default
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] WHEN I am presented with the About Me section
+      THEN I see a recent photo or avatar of the developer and a short bio about them
 
-## Learn More
+- [ ] WHEN I am presented with the Portfolio section
+      THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] WHEN I am presented with the Contact section
+      THEN I see a contact form with fields for a name, an email address, and a message
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] WHEN I move my cursor out of one of the form fields without entering text
+      THEN I receive a notification that this field is required
 
-### Code Splitting
+- [ ] WHEN I enter text into the email address field
+      THEN I receive a notification if I have entered an invalid email address
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [ ] WHEN I am presented with the Resume section
+      THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-### Analyzing the Bundle Size
+- [ ] WHEN I view the footer
+      THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Installation
 
-### Making a Progressive Web App
+- Install `nvm`
+- Use `nvm` to install `npm`
+- $ git clone git@github.com:box-o-water/react_portfolio.git
+- $ npm install
+- $ TODO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+- $ TODO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+To contribute, create an issue in this repo, or fork this repo and create a pull request against this repo from your fork.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Tests
 
-### `npm run build` fails to minify
+N/A
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Questions
+
+Visit my [box-o-water](https://github.com/box-o-water) profile page.
+
+For any questions about this project, please send an email to <boxooowater@gmail.com>.
+
+## Credits
+
+N/A
+
+## License
+
+Licensed under the [MIT](/LICENSE) license.
