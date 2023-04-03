@@ -1,10 +1,20 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
-      <h1>Header</h1>
+      <nav className="navbar">
+        <ul>
+          <li>
+            <NavLink to="/">Homepage</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
